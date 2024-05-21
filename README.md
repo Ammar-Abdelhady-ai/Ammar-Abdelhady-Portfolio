@@ -1,2 +1,2 @@
-# Ken_Portfolio
-A data science portfolio of Ken Jee.
+# Ammar_Portfolio
+A data science portfolio of Ammar Abdelhady.

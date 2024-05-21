@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Project 2: Stock Price Prediction | Ammar Abdelhady</title>
+    <title>Project 2: OpenAI-API Project Overview | Ammar Abdelhady</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="generator" content="Hugo 0.70.0" />
     
@@ -25,14 +25,14 @@
 
     
     
-    <meta property="og:title" content="Project 2:Stock Price Prediction" />
-<meta property="og:description" content="A tool that Stock Price Prediction." />
+    <meta property="og:title" content="Project 2:OpenAI-API Project Overview" />
+<meta property="og:description" content="A tool that OpenAI-API Project Overview." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content=".\ondex.html" />
 <meta property="article:published_time" content="2020-04-09T10:58:08-04:00" />
 <meta property="article:modified_time" content="2020-04-09T10:58:08-04:00" />
-<meta itemprop="name" content="Project 2: Stock Price Prediction">
-<meta itemprop="description" content="A tool thatStock Price Prediction.">
+<meta itemprop="name" content="Project 2: OpenAI-API Project Overview">
+<meta itemprop="description" content="A tool thatOpenAI-API Project Overview.">
 <meta itemprop="datePublished" content="2024-04-09T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2024-04-09T10:58:08-04:00" />
 <meta itemprop="wordCount" content="81">
@@ -40,8 +40,8 @@
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Project 2: Stock Price Prediction"/>
-<meta name="twitter:description" content="A tool that Stock Price Prediction."/>
+<meta name="twitter:title" content="Project 2: OpenAI-API Project Overview"/>
+<meta name="twitter:description" content="A tool that OpenAI-API Project Overview."/>
 
   </head>
 
@@ -53,7 +53,7 @@
 
   
   
-    <header class="cover bg-top" style="background-image: url('../images/stock-2.jpeg');">
+    <header class="cover bg-top" style="background-image: url('../images/Meal Plan Generation-1.png');">
       <div class="pb3-m pb6-l bg-black-60">
           <nav class="pv3 ph3 ph4-ns" role="navigation">
               <div class="flex-l justify-between items-center center">
@@ -150,10 +150,10 @@
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Project 2: Stock Price Prediction</h1>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Project 2: OpenAI-API Project Overview</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              A tool that use to Stock Price Prediction.
+              A tool that use to OpenAI-API Project Overview.
             </h2>
           
         
@@ -204,87 +204,93 @@
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">Project 2: Stock Price Prediction</h1>
+      <h1 class="f1 athelas mt3 mb1">Project 2: OpenAI-API Project Overview</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2024-04-09T10:58:08-04:00">May 10, 2023</time>
+      <time class="f6 mv4 dib tracked" datetime="2024-04-09T10:58:08-04:00">April 9, 2023</time>
 
       
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l" style="width: 90%;">
       <h2>Overview</h2>
-      <p>This project utilizes Long Short-Term Memory (LSTM) neural networks for predicting stock prices. The LSTM model is
-        trained on historical stock data and then used to forecast future prices. The main components of this project include:
-      </p>
+      <p>The OpenAI-API project integrates two main functionalities through a FastAPI web application:</p>
       <ul>
-        <li><strong>LSTM Model:</strong>
+        <li><strong>Meal Plan Generation:</strong>
           <ul>
-            <li>Utilizes LSTM architecture for time-series prediction.</li>
+            <li>Endpoint: <code>/meals_plan</code></li>
+            <li>Generates meal plans based on user-specified ingredients and caloric preferences.</li>
           </ul>
         </li>
         <br>
-        <li><strong>Data Analysis:</strong>
+        <li><strong>Image Generation for Meals:</strong>
           <ul>
-            <li>Python's Plotly library is used for data analysis, providing interactive visualizations.</li>
+            <li>Endpoint: <code>/generate_images</code></li>
+            <li>Creates images for meals using OpenAI's DALL-E API and packages them into a downloadable zip file.</li>
           </ul>
         </li>
         <br>
-        <li><strong>Data Visualization:</strong>
+        <li><strong>YouTube Audio Summarizer:</strong>
           <ul>
-            <li>Plotly is also used for data visualization, allowing for insightful representations of stock price trends.
-            </li>
-          </ul>
-        </li>
-        <br>
-        <li><strong>Web Deployment:</strong>
-          <ul>
-            <li>The prediction model is deployed on a web page built with Django, HTML, CSS, and Bootstrap, providing users
-              with an interactive interface to input parameters and obtain predictions.</li>
+            <li>Downloads audio from YouTube videos and generates summaries using OpenAI's APIs.</li>
           </ul>
         </li>
       </ul>
       
-      <p>Before running the project, ensure you have the following installed:</p>
+      <p>To get started, clone the repository and set up the environment:</p>
       <ul>
-        <li>Python (version 3.10.3)</li>
-        <li>Plotly</li>
-        <li>Django</li>
-        <li>HTML/CSS/Bootstrap (for web page deployment)</li>
+        <li><strong>Clone the Repository:</strong>
+          <pre><code>git clone https://github.com/Ammar-Abdelhady-ai/Openai-api.git
+      cd Openai-api</code></pre>
+        </li>
+        <br>
+        <li><strong>Environment Setup:</strong>
+          <ul>
+            <li>Install required dependencies.</li>
+          </ul>
+        </li>
+        <br>
+        <li><strong>Run the FastAPI App:</strong>
+          <ul>
+            <li>Start the FastAPI application.</li>
+          </ul>
+        </li>
       </ul>
       
-      <p><strong>Installation:</strong></p>
-      <ol>
-        <li>Clone this repository.</li>
-        <li>Install the required dependencies using pip.</li>
-      </ol>
+      <p>Scripts Overview:</p>
+      <ul>
+        <li><strong>Meals Plan:</strong>
+          <ul>
+            <li>Generates meal plans based on user inputs.</li>
+          </ul>
+        </li>
+        <br>
+        <li><strong>YouTube Audio Summary:</strong>
+          <ul>
+            <li>Generates summaries from YouTube audio.</li>
+          </ul>
+        </li>
+      </ul>
       
-      <p><strong>Usage:</strong></p>
-      <ol>
-        <li>Train the LSTM model using historical stock data.</li>
-        <li>Run the Django server to deploy the web page.</li>
-        <li>Access the web page in your browser and input parameters to get stock price predictions.</li>
-      </ol>
-      
-      <p><strong>Contributing:</strong></p>
-      <ol>
-        <li>Fork the repository.</li>
-        <li>Create a new branch.</li>
-        <li>Make your changes.</li>
-        <li>Commit your changes.</li>
-        <li>Push to the branch.</li>
-        <li>Create a new Pull Request.</li>
-      </ol>
-      
-      
-      <p><strong>Acknowledgments:</strong></p>
-      <p>Special thanks to those who provided the historical stock data.</p>
+      <p>API Endpoint and Dependencies:</p>
+      <ul>
+        <li><strong>API Endpoint:</strong>
+          <ul>
+            <li>Endpoints for meal plan and image generation.</li>
+          </ul>
+        </li>
+        <br>
+        <li><strong>Dependencies:</strong>
+          <ul>
+            <li>generating meal plans and creating summaries for transcribed audio from YouTube videos. The integration of OpenAI's powerful APIs makes these tasks seamless and accessible through a FastAPI web application.</li>
+          </ul>
+        </li>
+      </ul>
 
-      </ul>
       <figure>
-        <img src="..\images\stock-1.jpeg" alt="Job searching and matching illustration"/>
+        <img src="..\images\YouTube Audio Summarizer-2.webp" alt="Job searching and matching illustration"/>
     </figure>
-    <p><a href="https://github.com/Ammar-Abdelhady-ai/Stock-Price-Prediction">This Project&rsquo;s GitHub Repository</a></p>
+    <p><a href="https://github.com/Ammar-Abdelhady-ai/Openai-api">This Project&rsquo;s GitHub Repository</a></p>
     <ul class="pa0">
      
   </div>
